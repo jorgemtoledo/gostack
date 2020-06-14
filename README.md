@@ -7,4 +7,4 @@
 <p align="center">“Tenho em mim todos os sonhos do mundo. (Fernando Pessoa)”</blockquote>
 
 ---
-:rocket: **Feito por:**: **[Jorge Toledo](https://www.linkedin.com/in/jorgemtoledo/).**
+:rocket: **Feito por**: **[Jorge Toledo](https://www.linkedin.com/in/jorgemtoledo/).**
