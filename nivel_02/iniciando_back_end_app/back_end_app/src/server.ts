@@ -1,6 +1,7 @@
 import 'reflect-metadata';
 
 import express, { Request, Response, NextFunction} from 'express';
+import cors from 'cors';
 import 'express-async-errors';
 
 import routes from './routes';
@@ -13,6 +14,7 @@ import './database';
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 // http://localhost:3333/files/d3f1f650e42c692aab20-projeto_server.png
 app.use('/files', express.static(uploadConfig.directory));
